@@ -1,0 +1,21 @@
+[build-system]
+requires = [ "poetry>=0.12",]
+build-backend = "poetry.masonry.api"
+
+[dsb]
+title = "project_review"
+folder = "project_review"
+ignored = [ "data", "models",]
+
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = "No description."
+authors = [ "Paulo Victor Oliveira <paulo.oliveira@dellead.com>",]
+repository = ""
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
